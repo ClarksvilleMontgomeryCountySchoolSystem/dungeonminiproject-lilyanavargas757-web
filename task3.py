@@ -1,6 +1,7 @@
-guard_awake = True
+guard_awake = False
 if not guard_awake:
     outcome = "Shadow: Yes! You made it past the guard."
 else:
     outcome = "Doom: uh oh! You're doomed."
 print(outcome)
+
